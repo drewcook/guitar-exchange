@@ -1,5 +1,15 @@
 <template>
-	<div>hero</div>
+	<div class="Hero container">
+    <div class="text-container">
+      <h1 class="header">Guitar Exchange</h1>
+      <p class="snippet">
+        Your marketplace for renting guitars. Lend out your guitar for cash or borrow a guitar for a
+        last-minute gig.
+      </p>
+      <button class="btn button">Get Started!</button>
+    </div>
+		<img src="~assets/svg/Flat-Guitar.svg" alt="Guitar Hero" class="image" />
+	</div>
 </template>
 
 <script>
@@ -10,7 +20,7 @@
 
 <style scoped>
 	.Hero {
-	height: 50vh;
+		height: 50vh;
 		position: relative;
 		display: flex;
 		padding: 5rem 0;
