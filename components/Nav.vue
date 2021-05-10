@@ -9,7 +9,7 @@
 				<b-collapse id="nav-collapse" is-nav>
 					<b-navbar-nav>
 						<nuxt-link to="/products" class="nav-link"><b-nav-text>Products</b-nav-text></nuxt-link>
-						<nuxt-link to="/my-items" class="nav-link"><b-nav-text>My Items</b-nav-text></nuxt-link>
+						<nuxt-link to="/my-rentals" class="nav-link"><b-nav-text>My Rentals</b-nav-text></nuxt-link>
 					</b-navbar-nav>
 				</b-collapse>
 			</div>

@@ -6,7 +6,7 @@
         <div class="info-box">
           <h1>{{ product.title }}</h1>
           <p class="snippet">{{ product.snippet }}</p>
-          <RentModal />
+          <RentModal :productId="product.id" />
         </div>
       </div>
       <div class="whats-included-container">
@@ -15,7 +15,7 @@
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, dolorem.</p>
         </div>
         <div class="included-container">
-          <h6>Clean & Tidy</h6>
+          <h6>Clean &amp; Tidy</h6>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, dolorem.</p>
         </div>
         <div class="included-container">

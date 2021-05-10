@@ -14,21 +14,32 @@
             is-range
           />
       </div>
-      <b-button variant="outline" @click="hideModal">Order</b-button>
+      <b-button
+        variant="outline"
+        @click="() => {
+          addRental(productId)
+          hideModal()
+        }"
+      >
+        Rent
+      </b-button>
     </b-modal>
   </div>
 </template>
 
 <script>
-export default {
-  methods: {
-    showModal() {
-      this.$refs['rent-modal'].show()
-    },
-    hideModal() {
-      this.$refs['rent-modal'].hide()
-    },
-  }
+  import { mapMutations } from 'vuex'
+  export default {
+    props: ['productId'],
+    methods: {
+      ...mapMutations(['addRental']),
+      showModal() {
+        this.$refs['rent-modal'].show()
+      },
+      hideModal() {
+        this.$refs['rent-modal'].hide()
+      },
+    }
 }
 </script>
 
