@@ -1,7 +1,7 @@
 export default {
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
-		title: 'guitar-exchange',
+		title: 'Guitar Exchange | A Marketplace for Renting Guitars',
 		htmlAttrs: {
 			lang: 'en',
 		},
