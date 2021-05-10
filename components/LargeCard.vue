@@ -1,6 +1,10 @@
 <template>
 	<div class="card">
-		<img :src="require(`@/assets/images/${card.image || 'eg1.jpg'}`)" alt="Electric Guitar" class="image" />
+		<img
+			:src="require(`@/assets/images/${card.image || 'eg1.jpg'}`)"
+			alt="Electric Guitar"
+			class="image"
+		/>
 		<h3 class="header">{{ card.title }}</h3>
 		<p class="snippet">{{ card.snippet }}</p>
 	</div>

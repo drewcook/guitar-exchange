@@ -1,6 +1,10 @@
 <template>
 	<div class="card-container">
-		<img :src="require(`@/assets/images/${card.image || 'eg1.jpg'}`)" alt="Electric Guitar" class="image" />
+		<img
+			:src="require(`@/assets/images/${card.image || 'eg1.jpg'}`)"
+			alt="Electric Guitar"
+			class="image"
+		/>
 	</div>
 </template>
 
@@ -13,8 +17,8 @@
 <style scoped>
 	.card-container {
 		width: 24%;
-    border: 1px solid #ccc;
-    padding: 10px;
+		border: 1px solid #ccc;
+		padding: 10px;
 		border-radius: 0.5rem;
 		overflow: hidden;
 		margin-bottom: 1.5rem;
@@ -22,7 +26,7 @@
 	}
 
 	.image {
-    display: block;
+		display: block;
 		width: 25%;
 		height: auto;
 		margin: auto;
