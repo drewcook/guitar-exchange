@@ -17,7 +17,10 @@ export default {
 	css: [],
 
 	// Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-	plugins: [],
+	plugins: [
+		// https://vcalendar.io/vue-3.html
+		{ src: '~plugins/vue-calendar.js', mode: 'client' },
+	],
 
 	// Auto import components: https://go.nuxtjs.dev/config-components
 	components: true,
