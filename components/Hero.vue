@@ -8,7 +8,7 @@
 			</p>
 			<button class="btn button">Start Looking!</button>
 		</div>
-		<img src="~assets/svg/Flat-Guitar.svg" alt="Guitar Hero" class="image" />
+		<img src="~assets/svg/flat-guitar.svg" alt="Guitar Hero" class="image" />
 	</div>
 </template>
 
