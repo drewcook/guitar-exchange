@@ -3,6 +3,9 @@ Guitar Exchange is a mobile-responsive web application that acts as a marketplac
 
 Guitar Exchange is an app built in the [Nuxt.js](https://nuxtjs.org) framework and written mostly in [Vue](https://vuejs.org).  It incorporates the [BootstrapVue](https://bootstrap-vue.org/) component library to assist in building out the UI.
 
+## Demo
+You can check out the demo app [here](https://guitar-exchange.herokuapp.com).
+
 ## Build Setup
 
 ```bash
@@ -21,6 +24,3 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
-
-## Demo
-You can check out the demo app [here](https://guitar-exchange.herokuapp.com).
