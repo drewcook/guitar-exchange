@@ -13,9 +13,7 @@
 </template>
 
 <script>
-	export default {
-		name: 'Hero',
-	}
+	export default {}
 </script>
 
 <style scoped>

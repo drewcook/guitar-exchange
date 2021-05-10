@@ -1,13 +1,11 @@
 <template>
-	<div>
-		<h1>My Items</h1>
+	<div class="container">
+		<PageNotFound />
 	</div>
 </template>
 
 <script>
-	export default {
-		layout: 'no-nav',
-	}
+	export default {}
 </script>
 
 <style></style>
