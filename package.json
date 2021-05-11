@@ -10,6 +10,10 @@
     "lint": "prettier --config ./prettier.config.js **/*.* --check",
     "lint:fix": "prettier --config ./prettier.config.js **/*.* --write"
   },
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  },
   "dependencies": {
     "bootstrap": "^5.0.0",
     "bootstrap-vue": "^2.21.2",
